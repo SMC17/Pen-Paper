@@ -1,0 +1,77 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled executables
+*.out
+*.exe
+
+# Chapter exercise binaries (exclude source files)
+exercises/Chapter 1/ex_1_1
+exercises/Chapter 1/ex_1_2
+exercises/Chapter 1/ex_1_3
+exercises/Chapter 1/ex_1_4
+exercises/Chapter 1/ex_1_5_symmetric
+exercises/Chapter 1/ex_1_6_power_method
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.info
+
+# Documentation build artifacts
+docs/html/
+docs/latex/
+docs/doxygen_warnings.txt
+
+# Test artifacts
+test_results/
+*.log
+
+# Profiling data
+*.prof
+gmon.out
+callgrind.out.*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Python (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Backup files
+*~
+*.orig
